@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Gugi|Roboto" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <div class = "container-fluid">
+    <div class = "flex main-flex">
+      <h1>Wikipedia Viewer</h1>
+      <div class = "card card-body">
+        <div class = "flex toolbar-flex">
+          <a class = "btn btn-primary" id = "random-article" href = "https://en.wikipedia.org/wiki/Special:Random" target = "_blank">Learn something new!</a>
+          <div class = "flex search-flex">
+            <input type="text" placeholder="What to search for?" required  class="form-control" id = "search-word">
+            <button class = "btn btn-primary" id = "search-button"><i class="fa fa-search fa-lg"></i> Search</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id = "search-results">      
+      </div>
+      <h6 class = "text-center">Made by: Piotr Jarosz   
+          <a href="https://github.com/jaroszpiotr91" target="_blank"><i class="fa fab fa-github-square"></i></a>    
+          <a href = "https://www.linkedin.com/in/piotr-jarosz-a78616164/" target= "_blank"><i class="fa fab fa-linkedin"></i></a>     
+          <a href = "https://codepen.io/Dranet/" target = "_blank"><i class="fa fab fa-codepen"></i></a>
+      </h6>
+    </div>
+  </div>
+</body>
